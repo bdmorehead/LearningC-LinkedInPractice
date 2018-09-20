@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{25C6A1A1-A7AC-49CA-A21A-5B5514464D03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionsAndAnswers", "Practice\QuestionsAndAnswers.csproj", "{25C6A1A1-A7AC-49CA-A21A-5B5514464D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAPassword", "PracticePasscode\CreateAPassword.csproj", "{4434A600-CF33-4A6B-83E4-A0D6FC8EE226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopPractice", "Practice3\ForLoopPractice.csproj", "{E9C32762-5318-4C64-BDDA-4CAE3D68FC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTracker", "SchoolTracker\SchoolTracker.csproj", "{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCandidate", "JobCandidate\JobCandidate.csproj", "{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{25C6A1A1-A7AC-49CA-A21A-5B5514464D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25C6A1A1-A7AC-49CA-A21A-5B5514464D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25C6A1A1-A7AC-49CA-A21A-5B5514464D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4434A600-CF33-4A6B-83E4-A0D6FC8EE226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4434A600-CF33-4A6B-83E4-A0D6FC8EE226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4434A600-CF33-4A6B-83E4-A0D6FC8EE226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4434A600-CF33-4A6B-83E4-A0D6FC8EE226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C32762-5318-4C64-BDDA-4CAE3D68FC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C32762-5318-4C64-BDDA-4CAE3D68FC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C32762-5318-4C64-BDDA-4CAE3D68FC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C32762-5318-4C64-BDDA-4CAE3D68FC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

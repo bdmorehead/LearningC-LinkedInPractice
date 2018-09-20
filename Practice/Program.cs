@@ -10,12 +10,46 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Console.WriteLine("What is your name?");
+            var name = TryAnswer();
+
+            Console.WriteLine("How old are you?");
+            var age = TryAnswer();
+
+            Console.WriteLine("What month were you born in?");
+            var monthOfBirth = TryAnswer();
+
+            Console.WriteLine($"Your name is {name}");
+            Console.WriteLine($"Your age is {age}");
+            Console.WriteLine($"Your birth month is {monthOfBirth}");
+            
+
+            if (monthOfBirth == "march")
+            {
+                Console.WriteLine("You are an Aries!");
+            }
+            if (monthOfBirth == "june")
+            {
+                Console.WriteLine("You are Taurus!");
+            }
+            if (monthOfBirth == "august")
+            {
+                Console.WriteLine("You are Sagitarious!");
+            }
+
         }
+        static string TryAnswer()
+        {
+            var answer = Console.ReadLine();
+            if (answer == "")
+            {
+                Console.WriteLine("You didn't type anything, please try again");
+                return Console.ReadLine();
+            }
+            return answer;
+
+        }
+    }
     }
 }
