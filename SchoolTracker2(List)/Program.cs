@@ -10,18 +10,31 @@ namespace SchoolTracker
     {
         static void Main(string[] args)
         {
-            // Using a list you do not need to specify the amoun in the list
-            var studentNames = new List<string>();
-            var studentGrades = new List<int>();
+            // Using a list, when you do not need to specify the amount in the list
+            var students = new List<Student>();
+
             var adding = true;
 
             while (adding)
             {
-                Console.Write("Please input the students name: ");
-                studentNames.Add(Console.ReadLine());
+                var newStudent = new Student();
 
-                Console.Write("Please input the students grade: ");
-                studentGrades.Add(int.Parse(Console.ReadLine()));
+                Console.Write("Please input the students Name: ");
+                newStudent.Name = Console.ReadLine();
+
+                Console.Write("Please input the students Grade: ");
+                newStudent.Grade = int.Parse(Console.ReadLine());
+
+                Console.Write("Please input the students Birthday: ");
+                newStudent.Birthday = Console.ReadLine();
+
+                Console.Write("Please input the students Address: ");
+                newStudent.Address = Console.ReadLine();
+
+                Console.Write("Please input the students Phone Number: ");
+                newStudent.SetPhone(int.Parse(Console.ReadLine()));
+
+                students.Add(newStudent);
 
                 Console.WriteLine("Add another? y/n");
 
@@ -29,9 +42,9 @@ namespace SchoolTracker
                     adding = false;
             }
 
-            for (int i = 0; i < studentNames.Count; i++)
+            foreach (var student in students)
             {
-                Console.WriteLine("Name: {0}, Grade: {1}", studentNames[i], studentGrades[i]);
+                Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
             }
 
         }
@@ -41,7 +54,12 @@ namespace SchoolTracker
             public int Grade;
             public string Birthday;
             public string Address;
-            public int Phone;
+            private int phone;
+
+            public void SetPhone(int number)
+            {
+                Phone = number;
+            }
 
         }
     }
