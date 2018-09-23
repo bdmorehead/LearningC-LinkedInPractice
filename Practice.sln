@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAPassword", "Practice
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopPractice", "Practice3\ForLoopPractice.csproj", "{E9C32762-5318-4C64-BDDA-4CAE3D68FC72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTracker", "SchoolTracker\SchoolTracker.csproj", "{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTracker(Array)", "SchoolTracker\SchoolTracker(Array).csproj", "{3D0D531C-2B1B-4E0F-86D3-6FDDB22557F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCandidate", "JobCandidate\JobCandidate.csproj", "{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTracker2(List)", "SchoolTracker2(List)\SchoolTracker2(List).csproj", "{664447D9-5FD5-44CF-974C-2ED6E00C8890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E6B5CD-A0DA-4968-BDC5-EEE9F1DC9B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664447D9-5FD5-44CF-974C-2ED6E00C8890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664447D9-5FD5-44CF-974C-2ED6E00C8890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664447D9-5FD5-44CF-974C-2ED6E00C8890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664447D9-5FD5-44CF-974C-2ED6E00C8890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

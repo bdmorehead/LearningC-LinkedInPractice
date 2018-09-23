@@ -14,29 +14,24 @@ namespace SchoolTracker
             var studentCount = int.Parse(Console.ReadLine());
 
             
-            var studentNames = new int[studentCount] ;
+            var studentNames = new string[studentCount] ;
             var studentGrades = new int[studentCount];
 
             for (int i = 0; i < studentCount; i++)
-
-            Console.Write("Please input the students name:");
-            var studentName = Console.ReadLine();
-            foreach (var studentName in studentNames)
             {
+                Console.Write("Please input the students name: ");
+                studentNames[i] = Console.ReadLine();
+
+                Console.Write("Please input the students grade: ");
+                studentGrades[i] = int.Parse(Console.ReadLine());
 
             }
 
-            Console.Write("Please input the students grade:");
-            var studentGrade = int.Parse(Console.ReadLine());
-            
-            foreach (studentGrade in studentGrades)
+            for (int i = 0; i < studentCount; i++)
             {
-                Console.WriteLine(studentGrade);
+                Console.WriteLine("Name: {0}, Grade: {1}", studentNames[i], studentGrades[i]);
             }
 
         }
- 
-
-        public 
     }
 }
