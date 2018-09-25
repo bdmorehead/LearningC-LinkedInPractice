@@ -27,7 +27,7 @@ namespace SchoolTracker
 
                 newStudent.Address = Util.Console.Ask("Please input the students Address: ");
 
-                newStudent.Phone= int.Parse(Util.Console.Ask("Please input the students Phone Number: ")); 
+                newStudent.Phone = int.Parse(Util.Console.Ask("Please input the students Phone Number: "));
 
                 students.Add(newStudent);
                 Student.Count++;
@@ -45,7 +45,12 @@ namespace SchoolTracker
             }
 
         }
-    class Student
+
+        static void Import()
+        {
+            var importedStudent = new Student();
+        }
+        class Student
         {
             static public int Count = 0;
 
